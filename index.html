@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Information about countries</title>
+  <link rel="icon" type="image/x-icon" href="./img/256-2566155_flags-of-the-world-globe-icon-flag-of-removebg-preview.png">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="logo">
+          <img src="./img/256-2566155_flags-of-the-world-globe-icon-flag-of-removebg-preview.png" alt="is websites logo" width="100" height="50">
+          <h2 class="med"><b class="text">Countries</b></h2>
+        </div>
+        <div class="sear">
+          <div class="searchs">
+            <input class="input" type="text" placeholder="Qidiruv...">
+          </div>
+          <div class="by">
+            <select class="select" name="search by ..." id="order">
+              <option value="name">Ism boyicha</option>
+              <option value="currency">Valyuta boyicha</option>
+              <option value="language">Til boyicha</option>
+              <option value="capital">Poytaxt boyicha</option>
+              <option value="region">Mintaqa boyicha</option>
+              <!-- <option value="region">Mintaqa boyicha</option> -->
+            </select>
+          </div>
+          <button class="btn" id="btn">
+            ok
+          </button>
+        </div>
+        <div class='theme'>
+          <select class="select" name="theme" id="theme">
+            <option value="default">Standart</option>
+            <option value="dark">Qorong'i</option>
+            <option value="blue">Qorong'i - ko'k</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="like-output">
+    <div class="container2">
+      <ul class="list-countries">
+      
+      </ul>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
